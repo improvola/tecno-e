@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EMAE - PARCIAL</title>
+
+    <style type="text/css">
+        body{
+                background-color: #D3DAED;
+                background-size: cover;
+                width: 100%;
+                height: 100%;
+                font-family: century gothic;
+                color: #472A61;
+            }
+
+        footer {
+            background-color: black;
+            padding: 2px;
+            color: white;
+            text-align: center;
+}
+        
+    </style>
+</head>
+<body>
+    
+    <div align="center">
+    <h2 style=" font-style: italic;">PARCIAL DE APLICACIONES PARA DISP. MOVILES</h2>
+    </div>
+    <ul id="datos">
+    </ul>
+
+ <!--SCRIPT-->
+    <script>
+
+        var peticionHTTP;
+
+        function inicializar_XHR () {
+            if (window.XMLHttpRequest){
+               peticionHTTP = new XMLHttpRequest();
+            } else {
+              peticionHTTP = new ActiveXObject();
+            }
+        }
+
+        function realizarPeticion(url,metodo,funcion){
+            peticionHTTP.onreadystatechange = funcion; 
+            peticionHTTP.open(metodo,url,true);
+            peticionHTTP.send(null);
+        }
+        
+       
+        function descargarArchivo(){
+            inicializar_XHR();
+            var origenArch = "https://jsonplaceholder.typicode.com/users";
+            realizarPeticion(origenArch,'GET',funcionLectura); 
+
+        
+        }
+
+               
+        function funcionLectura(){
+           if(peticionHTTP.readyState == 4){
+             if (peticionHTTP.status == 200){ 
+                var datos = JSON.parse(peticionHTTP.responseText);
+                var resultado = "";
+                for(let i=0;i<datos.length;i++){
+                console.log(datos[i].name);
+                resultado = resultado + '<li><b> Nombre y Apellido:</b> '+ datos[i].name +', ' + datos[i].username+'<br> <b>Correo:</b> ' + datos[i].email + '</br> <b>Telefono: </b>' + datos[i].phone + '<br> <b>Direccion:</b> ' + datos[i].address.street + ' ' + datos[i].address.suite +  ', ' + datos[i].address.city + '<br> <b>Usuario:</b> ' +  datos[i].username + '<br> <b>Sitio Web:</b> ' +  datos[i].website + '</li> <br>';
+                }
+                //document.write(peticionHTTP.responseText);
+                console.log(datos);
+                document.getElementById("datos").innerHTML = resultado;
+               
+               /* for(let i=0;i<datos.length;i++){
+                resultado = resultado+'<li>${datos[i].name}</li>';
+                console.log(resultado);
+
+               }*/
+             } 
+           }
+        }
+            
+        
+        window.onload = descargarArchivo;
+       
+
+    </script>
+
+    <footer>
+            &#8212; EMAE &copy; Aplicaciones para Disp. Moviles | Impr&oacute;vola Melanie &#8212;
+
+    </footer>
+<!--FIN SCRIPT-->
+</body>

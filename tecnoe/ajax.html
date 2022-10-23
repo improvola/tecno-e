@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <script type="text/javascript">
+ var HttpClient = function() {
+ this.get = function(aUrl, aCallback) {
+ var anHttpRequest = new XMLHttpRequest();
+ anHttpRequest.onreadystatechange = function() { 
+ if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
+ aCallback(anHttpRequest.responseText);
+ }
+ anHttpRequest.open( "GET", aUrl, true ); 
+ anHttpRequest.send( null ); 
+ }
+ }
+ var theurl='https://jsonplaceholder.typicode.com/users';
+ var client = new HttpClient();
+ client.get(theurl, function(response) { 
+ var response1 = JSON.parse(response);
+ // alert(response);
+ document.getElementById("1").innerHTML = response1.name + ", " + response1.statusCode;
+ document.getElementById("1").innerHTML = response1.statusCode;
+ document.getElementById("statusMessage").innerHTML = response1.statusMessage;
+ document.getElementById("ipAddress").innerHTML = response1.ipAddress;
+ document.getElementById("countryCode").innerHTML = response1.countryCode;
+ document.getElementById("countryName").innerHTML = response1.countryName;
+ document.getElementById("regionName").innerHTML = response1.regionName;
+
+ console.log(response1);
+  document.getElementById("1").innerHTML = table;
+ }); 
+
+   
+  
+ </script>
+</head>
+<body>
+<center>
+ Javascript Get Request Test
+ <center>
+ <table border="1">
+ <tr><td>statusCode :</td><td id="1"></td></tr>
+ <tr><td>statusMessage :</td><td id="statusMessage"></td></tr>
+ <tr><td>ipAddress :</td><td id="ipAddress"></td></tr>
+ <tr><td>countryCode :</td><td id="countryCode"></td></tr>
+ <tr><td>countryName :</td><td id="countryName"></td></tr>
+ <tr><td>regionName :</td><td id="regionName"></td></tr>
+
+
+</body>
+</html>
