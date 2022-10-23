@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="154.07561mm"
+   height="146.25887mm"
+   viewBox="0 0 154.07561 146.25887"
+   version="1.1"
+   id="svg66991"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview66993"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.3884119"
+     inkscape:cx="88.823231"
+     inkscape:cy="294.79014"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs66988">
+    <rect
+       x="143.48399"
+       y="514.4054"
+       width="474.71835"
+       height="161.80112"
+       id="rect39560" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-22.467869,-30.522595)">
+    <path
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#e6e6e6;stroke-width:0.434514px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 91.923953,56.988737 14.570557,-15.454769 3.28921,6.042868 -8.93908,9.481553 19.25439,50.649331 23.50605,-24.93257 2.09089,8.276877 -28.37786,30.100013 z"
+       id="path37838" />
+    <path
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#e6e6e6;stroke-width:0.421901px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 95.304972,86.211568 31.556068,-31.556065 5.63502,5.635021 -37.352077,37.352073 -13.181602,-3.53199 -13.287753,13.287743 v 17.1313 l 14.281176,-14.28116 h 20.560176 l 12.82346,-12.823473 5.0476,13.741613 -3.86402,1.93201 -18.354046,18.35404 H 85.64496 L 99.973981,117.12365 H 87.898947 l -13.765528,13.76552 46.068581,0.56922 8.43006,-9.57282 3.703,10.70751 -6.0831,6.7486 H 61.011894 v -35.25907 l 19.722558,-19.72255 13.075742,3.503647 z"
+       id="path37840"
+       sodipodi:nodetypes="cccccccccccccccccccccccccc" />
+    <circle
+       style="opacity:0.97;fill:#e6e6e6;fill-opacity:1;stroke:#e6e6e6;stroke-width:4.46644;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="path38147"
+       cx="149.30624"
+       cy="82.854446"
+       r="7.5706544" />
+    <circle
+       style="opacity:0.97;fill:#e6e6e6;fill-opacity:1;stroke:#e6e6e6;stroke-width:4.46644;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="path38147-80"
+       cx="135.5937"
+       cy="123.23992"
+       r="7.5706544" />
+    <circle
+       style="opacity:0.97;fill:#e6e6e6;fill-opacity:1;stroke:#e6e6e6;stroke-width:4.46644;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="path38147-89"
+       cx="112.21002"
+       cy="40.326469"
+       r="7.5706544" />
+    <circle
+       style="opacity:0.97;fill:#e6e6e6;fill-opacity:1;stroke:#e6e6e6;stroke-width:4.46644;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="path38147-8"
+       cx="134.81868"
+       cy="51.71563"
+       r="9.4450417" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.61688241,0,0,0.31807821,-66.951374,-15.587833)"
+       id="text39558"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect39560);fill:#e6e6e6;fill-opacity:1;stroke:#e6e6e6;stroke-opacity:1"><tspan
+         x="143.48438"
+         y="604.08981"
+         id="tspan1056">TECNO-E</tspan></text>
+  </g>
+</svg>
